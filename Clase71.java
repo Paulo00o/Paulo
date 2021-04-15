@@ -16,6 +16,7 @@ public class Clase71 {
      */
     public static void main(String[] args) {
         Scanner tec=new Scanner(System.in);
+        System.out.println("Escribí dos numeros distintos");
         int a=tec.nextInt();
         int b=tec.nextInt();
         while (a==b){
@@ -23,9 +24,9 @@ public class Clase71 {
         b=tec.nextInt();
         }
          if(a<b){
-             System.out.println("El numero " +a+ "es menor");
+             System.out.println("El numero " +a+ " es menor");
          }else{
-          System.out.println("El numero " +b+ "es menor");
+          System.out.println("El numero " +b+ " es menor");
         
        
     }
